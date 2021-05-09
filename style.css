@@ -1,0 +1,62 @@
+body{
+    z-index: 3;
+    text-align: center;
+    background: linear-gradient(#cfc32d 0%,#1f7c8f 100%);
+}
+
+.kbox{
+    text-align: center;
+    background: linear-gradient(#cfc32d 0%,#1f7c8f 100%);
+    
+}
+
+.ulbox{
+    
+    position: absolute;
+    top:0;
+    left: 7;
+    list-style: none;
+    z-index: 4;
+    cursor: pointer;
+}
+
+
+
+.links{
+    float:left;
+    padding: 10px;
+    font-family: serif;
+    font-size: 17px;
+    color: black;
+}
+
+.links:hover{
+    background-color:blanchedalmond;
+}
+
+#k1section{
+    padding-top: 75px;
+    font-family: 'Itim', cursive;
+}
+
+#stevejobs{
+    height: 375px;
+    width: 300px;
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+}
+
+#panasonic{
+    height: 375px;
+    width: 300px;
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+}
+
+stevejobs:hover{
+    transform: scale(0.9);
+}
+
+img:hover{
+    transform: scale(0.9);
+}
